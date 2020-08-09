@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c3c53e-90b2-4270-b9da-30de5bde63d0" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MyBatis知识点" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MyBatis知识点" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chen/study/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chen/study/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chen/study/dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596966630436</updated>
       <workItem from="1596966632034" duration="7094000" />
-      <workItem from="1596974231027" duration="588000" />
+      <workItem from="1596974231027" duration="832000" />
     </task>
     <task id="LOCAL-00001" summary="知识点在src/main/resources目录下">
       <created>1596970859713</created>
@@ -134,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596970859714</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新了注解操作">
+      <created>1596975507103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596975507103</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="知识点在src/main/resources目录下" />
-    <option name="LAST_COMMIT_MESSAGE" value="知识点在src/main/resources目录下" />
+    <MESSAGE value="更新了注解操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了注解操作" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="71" key="#MyBatis_中的_chen_" timestamp="1596969373687">
@@ -165,10 +167,10 @@
       <screen x="48" y="23" width="1318" height="745" />
     </state>
     <state x="305" y="61" key="#项目结构/48.23.1318.745@48.23.1318.745" timestamp="1596971038059" />
-    <state x="324" y="23" key="CommitChangelistDialog2" timestamp="1596975444905">
+    <state x="324" y="23" key="CommitChangelistDialog2" timestamp="1596975506739">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="324" y="23" key="CommitChangelistDialog2/48.23.1318.745@48.23.1318.745" timestamp="1596975444905" />
+    <state x="324" y="23" key="CommitChangelistDialog2/48.23.1318.745@48.23.1318.745" timestamp="1596975506739" />
     <state width="1272" height="187" key="GridCell.Tab.0.bottom" timestamp="1596974164719">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
