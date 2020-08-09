@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81c3c53e-90b2-4270-b9da-30de5bde63d0" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MyBatis知识点" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MyBatis知识点" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chen/study/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chen/study/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chen/study/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1frC48Yw0cQT83mIHgg37IjJLT3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/classes/chen/study/dao" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/classes/chen/study/dao" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/chen/study/dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MybatisTest">
+    <configuration name="MybatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chen.study.test.MybatisTest" />
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chen.study.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatis 中的 chen " type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chen" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MybatisTest" />
+      <item itemvalue="JUnit.MyBatis 中的 chen " />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MybatisTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81c3c53e-90b2-4270-b9da-30de5bde63d0" name="默认更改列表" comment="" />
+      <created>1596966630436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596966630436</updated>
+      <workItem from="1596966632034" duration="7094000" />
+      <workItem from="1596974231027" duration="588000" />
+    </task>
+    <task id="LOCAL-00001" summary="知识点在src/main/resources目录下">
+      <created>1596970859713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596970859714</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="知识点在src/main/resources目录下" />
+    <option name="LAST_COMMIT_MESSAGE" value="知识点在src/main/resources目录下" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="71" key="#MyBatis_中的_chen_" timestamp="1596969373687">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="311" y="71" key="#MyBatis_中的_chen_/48.23.1318.745@48.23.1318.745" timestamp="1596969373687" />
+    <state x="169" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596970256837">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="169" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/48.23.1318.745@48.23.1318.745" timestamp="1596970256837" />
+    <state x="527" y="205" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596968728489">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="527" y="205" key="#com.intellij.fileTypes.FileTypeChooser/48.23.1318.745@48.23.1318.745" timestamp="1596968728489" />
+    <state x="518" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1596967501745">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="518" y="118" key="#com.intellij.ide.util.MemberChooser/48.23.1318.745@48.23.1318.745" timestamp="1596967501745" />
+    <state x="305" y="61" key="#项目结构" timestamp="1596971038059">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="305" y="61" key="#项目结构/48.23.1318.745@48.23.1318.745" timestamp="1596971038059" />
+    <state x="324" y="23" key="CommitChangelistDialog2" timestamp="1596975444905">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="324" y="23" key="CommitChangelistDialog2/48.23.1318.745@48.23.1318.745" timestamp="1596975444905" />
+    <state width="1272" height="187" key="GridCell.Tab.0.bottom" timestamp="1596974164719">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state width="1272" height="187" key="GridCell.Tab.0.bottom/48.23.1318.745@48.23.1318.745" timestamp="1596974164719" />
+    <state width="1272" height="187" key="GridCell.Tab.0.center" timestamp="1596974164718">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state width="1272" height="187" key="GridCell.Tab.0.center/48.23.1318.745@48.23.1318.745" timestamp="1596974164718" />
+    <state width="1272" height="187" key="GridCell.Tab.0.left" timestamp="1596974164718">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state width="1272" height="187" key="GridCell.Tab.0.left/48.23.1318.745@48.23.1318.745" timestamp="1596974164718" />
+    <state width="1272" height="187" key="GridCell.Tab.0.right" timestamp="1596974164719">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state width="1272" height="187" key="GridCell.Tab.0.right/48.23.1318.745@48.23.1318.745" timestamp="1596974164719" />
+    <state x="305" y="124" key="Vcs.Push.Dialog.v2" timestamp="1596970894081">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="305" y="124" key="Vcs.Push.Dialog.v2/48.23.1318.745@48.23.1318.745" timestamp="1596970894081" />
+    <state x="318" y="125" width="774" height="540" key="find.popup" timestamp="1596969752196">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="318" y="125" width="774" height="540" key="find.popup/48.23.1318.745@48.23.1318.745" timestamp="1596969752196" />
+  </component>
+</project>

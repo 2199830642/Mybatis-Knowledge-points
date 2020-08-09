@@ -52,3 +52,26 @@
             当我们遵从了2，3，4点之后，我们在开发中就无须再写dao的实现类
 
         mybatis的入门案例
+            第一步：使用类加载器读取配置文件
+            第二步：使用SqlSessionFactoryBuilder建造工厂
+            第三步：给创建的工厂传入读取的配置文件 SqlSessionFactory factory = builder.build(in);
+            第四步：使用factory的openSession()创建SqlSession对象
+            第五步：使用创建好的SqlSession对象调用getMapper(UserDao.class)创建dao接口的代理对象,参数为dao接口的字节码文件
+            第六步：使用增强后的代理对象调用接口的方法
+            第七步：释放资源
+
+            注意事项：
+                    千万不要忘记，在映射配置文件中告知mybatis要封装到哪个实体类中
+                    配置的方式就是指定实体类的全限定类名
+
+                mybatis基础注解的入门案例
+                    把UserDao.xml移除，在dao接口的方法上使用@Select，并且指定sql语句，
+                    同时需要在SqlMapConfig.xml中的mapper配置时，使用class属性指定dao接口的全限定类名
+
+                明确：我们在实际开发中都是越简便越好，所以很少采用写dao实现类的方式，不管是用xml还是注解配置，但是mybatis支持写dao实现类
+
+    6.自定义mybatis的分析：
+            mybatis在使用代理dao的方式实现增删改查时做了什么事情呢？
+                只有两件事：
+                        1.创建代理对象
+                        2.在代理对象中调用selectList方法
