@@ -7,4 +7,24 @@
     <select id="findAll" resultType="chen.study.domain.User">
         select * from user
     </select>
+    <!--保存用户-->
+    <insert id="saveUser" parameterType="chen.study.domain.User">
+        insert into user(username,address,sex,birthday) values(#{username},#{address},#{sex},#{birthday});
+    </insert>
+    <!--更新用户-->
+    <update id="updateUser" parameterType="chen.study.domain.User">
+        update  user set username=#{username},address=#{address},sex=#{sex},birthday=#{birthday} where id=#{id};
+    </update>
+    <!--删除用户-->
+    <delete id="deleteUser" parameterType="Integer">
+        delete from user where id = #{uid};
+    </delete>
+    <!--查询一个用户-->
+    <select id="findOne" parameterType="Integer" resultType="chen.study.domain.User">
+        select * from user where id=#{uid};
+    </select>
+    <!--根据姓名模糊查询-->
+    <select id="findByName" parameterType="String" resultType="chen.study.domain.User">
+        select * from user where username like #{username}
+    </select>
 </mapper>

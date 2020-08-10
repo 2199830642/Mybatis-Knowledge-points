@@ -26,7 +26,6 @@
         如果使用注解配置，此处应该使用class属性指定被注解的dao全限定类名
     -->
     <mappers>
-        <mapper class="chen.study.dao.UserDao"/>
         <mapper resource="chen/study/dao/UserDao.xml"/>
     </mappers>
 </configuration>

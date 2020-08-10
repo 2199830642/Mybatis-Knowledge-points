@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * mybatis的入门案例
  */
-public class MybatisTest {
+public class MybatisTest01 {
     public static void main(String[] args) throws Exception{
         //1.读取配置文件
         InputStream in = Resources.getResourceAsStream("SqlMapConfig.xml");
