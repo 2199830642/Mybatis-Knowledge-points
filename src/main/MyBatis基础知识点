@@ -86,3 +86,12 @@
             如果有注意观察的话，发现序列化操作用于存储时，一般是对于NoSql数据库，而在使用Nosql数据库进行存储时，
             用“freeze”这个说法来理解是再恰当不过了，请在NoSql数据库中，给我找出个varchar，int之类的数据结构出来？
             如果没有，但我们又确实需要进行存储，那么，此时程序员再不将对象进行序列化，更待何时？
+
+    8.OGNL表达式
+            Object Graphic Navigation Language
+             对象    图       导航         语言
+
+             它是通过对象的取值方法来获取数据，在写法上把get省略了
+             比如：获取用户的名称：
+                    类中的写法：user.getUsername()
+                    OGNL的写法：user.username()

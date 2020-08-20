@@ -2,21 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c3c53e-90b2-4270-b9da-30de5bde63d0" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTestCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/domain/AccountUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/mybatis进阶知识点" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chen/study/dao/AccountDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chen/study/dao/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTestUserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/RoleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/UserTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/AccountDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbcConfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/d:axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/d:axis.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MyBatis知识点" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MyBatis知识点" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MyBatis知识点" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MyBatis基础知识点" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chen/study/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chen/study/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chen/study/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/chen/study/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chen/study/dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTestCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTestCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/chen/study/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/chen/study/test/MybatisTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +76,26 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="chen.study.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/target/classes/chen/study/dao" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/chen/study/dao" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chen.study.test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTestCRUD.findByName">
+  <component name="RunManager" selected="JUnit.UserTest1.findAllTest">
     <configuration name="MyBatis 中的 chen " type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="MyBatis" />
       <extension name="coverage">
@@ -88,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTestCRUD.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTestCRUD.findUserInIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis" />
       <extension name="coverage">
         <pattern>
@@ -98,13 +123,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="chen.study.test" />
       <option name="MAIN_CLASS_NAME" value="chen.study.test.MybatisTestCRUD" />
-      <option name="METHOD_NAME" value="deleteTest" />
+      <option name="METHOD_NAME" value="findUserInIds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTestCRUD.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoleTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis" />
       <extension name="coverage">
         <pattern>
@@ -113,14 +138,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="chen.study.test" />
-      <option name="MAIN_CLASS_NAME" value="chen.study.test.MybatisTestCRUD" />
-      <option name="METHOD_NAME" value="findByName" />
+      <option name="MAIN_CLASS_NAME" value="chen.study.test.RoleTest" />
+      <option name="METHOD_NAME" value="findAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTestCRUD.findOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis" />
       <extension name="coverage">
         <pattern>
@@ -129,14 +154,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="chen.study.test" />
-      <option name="MAIN_CLASS_NAME" value="chen.study.test.MybatisTestCRUD" />
-      <option name="METHOD_NAME" value="findOne" />
+      <option name="MAIN_CLASS_NAME" value="chen.study.test.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest1.findAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chen.study.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chen.study.test" />
+      <option name="MAIN_CLASS_NAME" value="chen.study.test.UserTest1" />
+      <option name="METHOD_NAME" value="findAllTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTestCRUD.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.findAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis" />
       <extension name="coverage">
         <pattern>
@@ -145,24 +185,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="chen.study.test" />
-      <option name="MAIN_CLASS_NAME" value="chen.study.test.MybatisTestCRUD" />
-      <option name="METHOD_NAME" value="saveTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTestCRUD.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chen.study.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chen.study.test" />
-      <option name="MAIN_CLASS_NAME" value="chen.study.test.MybatisTestCRUD" />
-      <option name="METHOD_NAME" value="updateTest" />
+      <option name="MAIN_CLASS_NAME" value="chen.study.test.UserTest" />
+      <option name="METHOD_NAME" value="findAllTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,19 +194,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MyBatis 中的 chen " />
-      <item itemvalue="JUnit.MybatisTestCRUD.saveTest" />
-      <item itemvalue="JUnit.MybatisTestCRUD.updateTest" />
-      <item itemvalue="JUnit.MybatisTestCRUD.deleteTest" />
-      <item itemvalue="JUnit.MybatisTestCRUD.findOne" />
-      <item itemvalue="JUnit.MybatisTestCRUD.findByName" />
+      <item itemvalue="JUnit.MybatisTestCRUD.findUserInIds" />
+      <item itemvalue="JUnit.UserTest.findAllTest" />
+      <item itemvalue="JUnit.UserTest" />
+      <item itemvalue="JUnit.RoleTest.findAll" />
+      <item itemvalue="JUnit.UserTest1.findAllTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTestCRUD.findByName" />
-        <item itemvalue="JUnit.MybatisTestCRUD.findOne" />
-        <item itemvalue="JUnit.MybatisTestCRUD.deleteTest" />
-        <item itemvalue="JUnit.MybatisTestCRUD.updateTest" />
-        <item itemvalue="JUnit.MybatisTestCRUD.saveTest" />
+        <item itemvalue="JUnit.UserTest1.findAllTest" />
+        <item itemvalue="JUnit.RoleTest.findAll" />
+        <item itemvalue="JUnit.UserTest.findAllTest" />
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.MybatisTestCRUD.findUserInIds" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +234,18 @@
       <updated>1596966630436</updated>
       <workItem from="1596966632034" duration="7094000" />
       <workItem from="1596974231027" duration="922000" />
-      <workItem from="1597033446348" duration="7825000" />
+      <workItem from="1597033446348" duration="7949000" />
+      <workItem from="1597131336100" duration="3788000" />
+      <workItem from="1597289984251" duration="1199000" />
+      <workItem from="1597396792174" duration="20000" />
+      <workItem from="1597564704012" duration="3577000" />
+      <workItem from="1597631151464" duration="12000" />
+      <workItem from="1597718476298" duration="5726000" />
+      <workItem from="1597803617488" duration="2662000" />
+      <workItem from="1597819668782" duration="6132000" />
+      <workItem from="1597886020010" duration="459000" />
+      <workItem from="1597887105937" duration="8906000" />
+      <workItem from="1597908408272" duration="6376000" />
     </task>
     <task id="LOCAL-00001" summary="知识点在src/main/resources目录下">
       <created>1596970859713</created>
@@ -233,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596975566599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新mybatis基础增删改查">
+      <created>1597065716357</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597065716357</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新mybatis基础增删改查">
+      <created>1597065782245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597065782245</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +291,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="知识点在src/main/resources目录下" />
     <MESSAGE value="更新了注解操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了注解操作" />
+    <MESSAGE value="更新mybatis基础增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新mybatis基础增删改查" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="71" key="#MyBatis_中的_chen_" timestamp="1596969373687">
@@ -253,61 +303,73 @@
       <screen x="48" y="23" width="1318" height="745" />
     </state>
     <state x="169" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/48.23.1318.745@48.23.1318.745" timestamp="1596970256837" />
-    <state x="527" y="205" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596968728489">
+    <state x="527" y="205" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597804050233">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="527" y="205" key="#com.intellij.fileTypes.FileTypeChooser/48.23.1318.745@48.23.1318.745" timestamp="1596968728489" />
-    <state x="518" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1596967501745">
+    <state x="527" y="205" key="#com.intellij.fileTypes.FileTypeChooser/48.23.1318.745@48.23.1318.745" timestamp="1597804050233" />
+    <state x="518" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1597914096879">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="518" y="118" key="#com.intellij.ide.util.MemberChooser/48.23.1318.745@48.23.1318.745" timestamp="1596967501745" />
+    <state x="518" y="118" key="#com.intellij.ide.util.MemberChooser/48.23.1318.745@48.23.1318.745" timestamp="1597914096879" />
+    <state x="538" y="262" width="338" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597890199955">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="538" y="262" width="338" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/48.23.1318.745@48.23.1318.745" timestamp="1597890199955" />
     <state x="305" y="61" key="#项目结构" timestamp="1596971038059">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
     <state x="305" y="61" key="#项目结构/48.23.1318.745@48.23.1318.745" timestamp="1596971038059" />
-    <state x="324" y="23" key="CommitChangelistDialog2" timestamp="1597065715702">
+    <state x="324" y="23" key="CommitChangelistDialog2" timestamp="1597065781898">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="324" y="23" key="CommitChangelistDialog2/48.23.1318.745@48.23.1318.745" timestamp="1597065715702" />
-    <state width="1272" height="187" key="GridCell.Tab.0.bottom" timestamp="1597065760090">
+    <state x="324" y="23" key="CommitChangelistDialog2/48.23.1318.745@48.23.1318.745" timestamp="1597065781898" />
+    <state width="1276" height="421" key="GridCell.Tab.0.bottom" timestamp="1597915757310">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1272" height="187" key="GridCell.Tab.0.bottom/48.23.1318.745@48.23.1318.745" timestamp="1597065760090" />
-    <state width="1272" height="187" key="GridCell.Tab.0.center" timestamp="1597065760088">
+    <state width="1276" height="421" key="GridCell.Tab.0.bottom/48.23.1318.745@48.23.1318.745" timestamp="1597915757310" />
+    <state width="1276" height="421" key="GridCell.Tab.0.center" timestamp="1597915757309">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1272" height="187" key="GridCell.Tab.0.center/48.23.1318.745@48.23.1318.745" timestamp="1597065760088" />
-    <state width="1272" height="187" key="GridCell.Tab.0.left" timestamp="1597065760087">
+    <state width="1276" height="421" key="GridCell.Tab.0.center/48.23.1318.745@48.23.1318.745" timestamp="1597915757309" />
+    <state width="1276" height="421" key="GridCell.Tab.0.left" timestamp="1597915757308">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1272" height="187" key="GridCell.Tab.0.left/48.23.1318.745@48.23.1318.745" timestamp="1597065760087" />
-    <state width="1272" height="187" key="GridCell.Tab.0.right" timestamp="1597065760088">
+    <state width="1276" height="421" key="GridCell.Tab.0.left/48.23.1318.745@48.23.1318.745" timestamp="1597915757308" />
+    <state width="1276" height="421" key="GridCell.Tab.0.right" timestamp="1597915757310">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1272" height="187" key="GridCell.Tab.0.right/48.23.1318.745@48.23.1318.745" timestamp="1597065760088" />
-    <state width="1272" height="232" key="GridCell.Tab.1.bottom" timestamp="1597061133569">
+    <state width="1276" height="421" key="GridCell.Tab.0.right/48.23.1318.745@48.23.1318.745" timestamp="1597915757310" />
+    <state width="1272" height="232" key="GridCell.Tab.1.bottom" timestamp="1597065805520">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1272" height="232" key="GridCell.Tab.1.bottom/48.23.1318.745@48.23.1318.745" timestamp="1597061133569" />
-    <state width="1272" height="232" key="GridCell.Tab.1.center" timestamp="1597061133568">
+    <state width="1272" height="232" key="GridCell.Tab.1.bottom/48.23.1318.745@48.23.1318.745" timestamp="1597065805520" />
+    <state width="1272" height="232" key="GridCell.Tab.1.center" timestamp="1597065805520">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1272" height="232" key="GridCell.Tab.1.center/48.23.1318.745@48.23.1318.745" timestamp="1597061133568" />
-    <state width="1272" height="232" key="GridCell.Tab.1.left" timestamp="1597061133567">
+    <state width="1272" height="232" key="GridCell.Tab.1.center/48.23.1318.745@48.23.1318.745" timestamp="1597065805520" />
+    <state width="1272" height="232" key="GridCell.Tab.1.left" timestamp="1597065805519">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1272" height="232" key="GridCell.Tab.1.left/48.23.1318.745@48.23.1318.745" timestamp="1597061133567" />
-    <state width="1272" height="232" key="GridCell.Tab.1.right" timestamp="1597061133569">
+    <state width="1272" height="232" key="GridCell.Tab.1.left/48.23.1318.745@48.23.1318.745" timestamp="1597065805519" />
+    <state width="1272" height="232" key="GridCell.Tab.1.right" timestamp="1597065805520">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1272" height="232" key="GridCell.Tab.1.right/48.23.1318.745@48.23.1318.745" timestamp="1597061133569" />
-    <state x="305" y="124" key="Vcs.Push.Dialog.v2" timestamp="1596975570610">
+    <state width="1272" height="232" key="GridCell.Tab.1.right/48.23.1318.745@48.23.1318.745" timestamp="1597065805520" />
+    <state x="216" y="34" key="SettingsEditor" timestamp="1597806444445">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="305" y="124" key="Vcs.Push.Dialog.v2/48.23.1318.745@48.23.1318.745" timestamp="1596975570610" />
+    <state x="216" y="34" key="SettingsEditor/48.23.1318.745@48.23.1318.745" timestamp="1597806444445" />
+    <state x="305" y="124" key="Vcs.Push.Dialog.v2" timestamp="1597065791425">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="305" y="124" key="Vcs.Push.Dialog.v2/48.23.1318.745@48.23.1318.745" timestamp="1597065791425" />
     <state x="318" y="125" width="774" height="540" key="find.popup" timestamp="1596969752196">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
     <state x="318" y="125" width="774" height="540" key="find.popup/48.23.1318.745@48.23.1318.745" timestamp="1596969752196" />
+    <state x="372" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1597806512054">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="372" y="92" width="670" height="676" key="search.everywhere.popup/48.23.1318.745@48.23.1318.745" timestamp="1597806512054" />
   </component>
 </project>
