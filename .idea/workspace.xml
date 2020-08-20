@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c3c53e-90b2-4270-b9da-30de5bde63d0" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/domain/AccountUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/domain/QueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chen/study/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/mybatis进阶知识点" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chen/study/dao/AccountDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chen/study/dao/RoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTestUserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/RoleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/UserTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/AccountDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/AccountDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/RoleDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/RoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbcConfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d:axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/d:axis.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MyBatis知识点" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MyBatis基础知识点" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chen/study/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chen/study/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chen/study/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chen/study/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chen/study/dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTestCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chen/study/test/MybatisTestCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chen/study/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/domain/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +213,7 @@
       <workItem from="1597819668782" duration="6132000" />
       <workItem from="1597886020010" duration="459000" />
       <workItem from="1597887105937" duration="8906000" />
-      <workItem from="1597908408272" duration="6376000" />
+      <workItem from="1597908408272" duration="6623000" />
     </task>
     <task id="LOCAL-00001" summary="知识点在src/main/resources目录下">
       <created>1596970859713</created>
@@ -282,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597065782245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="更新mybatis的进阶知识点包括动态sql以及多表查询">
+      <created>1597915918631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597915918631</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +267,8 @@
     <MESSAGE value="知识点在src/main/resources目录下" />
     <MESSAGE value="更新了注解操作" />
     <MESSAGE value="更新mybatis基础增删改查" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新mybatis基础增删改查" />
+    <MESSAGE value="更新mybatis的进阶知识点包括动态sql以及多表查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新mybatis的进阶知识点包括动态sql以及多表查询" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="71" key="#MyBatis_中的_chen_" timestamp="1596969373687">
@@ -319,10 +295,10 @@
       <screen x="48" y="23" width="1318" height="745" />
     </state>
     <state x="305" y="61" key="#项目结构/48.23.1318.745@48.23.1318.745" timestamp="1596971038059" />
-    <state x="324" y="23" key="CommitChangelistDialog2" timestamp="1597065781898">
+    <state x="324" y="23" key="CommitChangelistDialog2" timestamp="1597915917901">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="324" y="23" key="CommitChangelistDialog2/48.23.1318.745@48.23.1318.745" timestamp="1597065781898" />
+    <state x="324" y="23" key="CommitChangelistDialog2/48.23.1318.745@48.23.1318.745" timestamp="1597915917901" />
     <state width="1276" height="421" key="GridCell.Tab.0.bottom" timestamp="1597915757310">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
@@ -359,10 +335,10 @@
       <screen x="48" y="23" width="1318" height="745" />
     </state>
     <state x="216" y="34" key="SettingsEditor/48.23.1318.745@48.23.1318.745" timestamp="1597806444445" />
-    <state x="305" y="124" key="Vcs.Push.Dialog.v2" timestamp="1597065791425">
+    <state x="305" y="124" key="Vcs.Push.Dialog.v2" timestamp="1597915925620">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="305" y="124" key="Vcs.Push.Dialog.v2/48.23.1318.745@48.23.1318.745" timestamp="1597065791425" />
+    <state x="305" y="124" key="Vcs.Push.Dialog.v2/48.23.1318.745@48.23.1318.745" timestamp="1597915925620" />
     <state x="318" y="125" width="774" height="540" key="find.popup" timestamp="1596969752196">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
