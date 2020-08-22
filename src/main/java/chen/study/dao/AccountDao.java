@@ -17,4 +17,11 @@ public interface AccountDao{
      * @return
      */
     public List<AccountUser> findAllAccount();
+
+    /**
+     * 根据用户信息uid查询账户信息
+     * @param uid
+     * @return
+     */
+    public List<Account> findAccountByUid(Integer uid);
 }

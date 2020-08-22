@@ -4271,3 +4271,549 @@
 2020-08-20 17:28:59,829 2986   [           main] DEBUG hen.study.dao.UserDao.findAll1  - <==      Total: 9
 2020-08-20 17:28:59,845 3002   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f79e]
 2020-08-20 17:28:59,848 3005   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 63390 to pool.
+2020-08-20 17:58:41,494 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-20 17:58:41,974 480    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-20 17:58:41,975 481    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-20 17:58:41,976 482    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-20 17:58:41,977 483    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-20 17:58:41,978 484    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-20 17:58:41,979 485    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-20 17:58:41,980 486    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-20 17:58:42,106 612    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-08-20 17:58:42,106 612    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-08-20 17:58:42,107 613    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-08-20 17:58:42,107 613    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Role.class
+2020-08-20 17:58:42,109 615    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-20 17:58:42,112 618    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-20 17:58:42,113 619    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-20 17:58:42,113 619    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-20 17:58:42,114 620    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 F
+2020-08-20 17:58:42,115 621    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-20 17:58:42,115 621    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-20 17:58:42,116 622    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-08-20 17:58:42,117 623    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-20 17:58:42,117 623    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-20 17:58:42,118 624    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2020-08-20 17:58:42,119 625    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-20 17:58:42,119 625    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-20 17:58:42,121 627    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 J
+2020-08-20 17:58:42,122 628    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-20 17:58:42,122 628    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-20 17:58:42,124 630    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 c
+2020-08-20 17:58:42,125 631    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Account matches criteria [is assignable to Object]
+2020-08-20 17:58:42,126 632    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.AccountUser matches criteria [is assignable to Object]
+2020-08-20 17:58:42,127 633    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.QueryVo matches criteria [is assignable to Object]
+2020-08-20 17:58:42,127 633    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Role matches criteria [is assignable to Object]
+2020-08-20 17:58:42,128 634    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.User matches criteria [is assignable to Object]
+2020-08-20 17:58:42,396 902    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-20 17:58:42,396 902    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-20 17:58:42,396 902    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-20 17:58:42,396 902    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-20 17:58:42,401 907    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-20 17:58:42,401 907    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-20 17:58:42,404 910    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.class
+2020-08-20 17:58:42,405 911    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.xml
+2020-08-20 17:58:42,405 911    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: impl
+2020-08-20 17:58:42,405 911    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.class
+2020-08-20 17:58:42,406 912    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.xml
+2020-08-20 17:58:42,406 912    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2020-08-20 17:58:42,406 912    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2020-08-20 17:58:42,407 913    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-20 17:58:42,407 913    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-20 17:58:42,407 913    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-20 17:58:42,412 918    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-08-20 17:58:42,413 919    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-20 17:58:42,413 919    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-20 17:58:42,414 920    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-20 17:58:42,414 920    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-20 17:58:42,414 920    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-20 17:58:42,415 921    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoImpl.class
+2020-08-20 17:58:42,417 923    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-20 17:58:42,418 924    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-20 17:58:42,418 924    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-20 17:58:42,420 926    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ~
+2020-08-20 17:58:42,422 928    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-20 17:58:42,422 928    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-20 17:58:42,422 928    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2020-08-20 17:58:42,423 929    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-20 17:58:42,423 929    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-20 17:58:42,424 930    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-20 17:58:42,424 930    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-20 17:58:42,425 931    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-20 17:58:42,425 931    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature ,()Ljava/util/List<Lchen/study/domain/User;>; findAll1 saveUser (Lchen/study/domain/User;)V 
+2020-08-20 17:58:42,426 932    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-20 17:58:42,426 932    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-20 17:58:42,428 934    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-20 17:58:42,429 935    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.AccountDao matches criteria [is assignable to Object]
+2020-08-20 17:58:42,430 936    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.impl.UserDaoImpl matches criteria [is assignable to Object]
+2020-08-20 17:58:42,431 937    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.RoleDao matches criteria [is assignable to Object]
+2020-08-20 17:58:42,431 937    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.UserDao matches criteria [is assignable to Object]
+2020-08-20 17:58:42,889 1395   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-20 17:58:43,903 2409   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 63390.
+2020-08-20 17:58:43,907 2413   [           main] DEBUG hen.study.dao.UserDao.findAll1  - ==>  Preparing: select u.*,r.id as rid,r.role_Name,r.role_desc from user u left outer join user_role ur on u.id = ur.uid left outer join role r on r.id = ur.rid 
+2020-08-20 17:58:43,976 2482   [           main] DEBUG hen.study.dao.UserDao.findAll1  - ==> Parameters: 
+2020-08-20 17:58:44,060 2566   [           main] DEBUG hen.study.dao.UserDao.findAll1  - <==      Total: 9
+2020-08-20 17:58:44,067 2573   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f79e]
+2020-08-20 17:58:44,067 2573   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 63390 to pool.
+2020-08-20 18:00:28,169 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-20 18:00:28,546 377    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-20 18:00:28,546 377    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-20 18:00:28,548 379    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-20 18:00:28,549 380    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-20 18:00:28,551 382    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-20 18:00:28,551 382    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-20 18:00:28,552 383    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-20 18:00:28,681 512    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-08-20 18:00:28,681 512    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-08-20 18:00:28,682 513    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-08-20 18:00:28,682 513    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Role.class
+2020-08-20 18:00:28,682 513    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-20 18:00:28,683 514    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-20 18:00:28,683 514    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-20 18:00:28,683 514    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-20 18:00:28,684 515    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 F
+2020-08-20 18:00:28,685 516    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-20 18:00:28,685 516    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-20 18:00:28,686 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-08-20 18:00:28,686 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-20 18:00:28,687 518    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-20 18:00:28,687 518    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2020-08-20 18:00:28,688 519    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-20 18:00:28,688 519    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-20 18:00:28,695 526    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 J
+2020-08-20 18:00:28,696 527    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-20 18:00:28,697 528    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-20 18:00:28,698 529    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 c
+2020-08-20 18:00:28,699 530    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Account matches criteria [is assignable to Object]
+2020-08-20 18:00:28,700 531    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.AccountUser matches criteria [is assignable to Object]
+2020-08-20 18:00:28,701 532    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.QueryVo matches criteria [is assignable to Object]
+2020-08-20 18:00:28,702 533    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Role matches criteria [is assignable to Object]
+2020-08-20 18:00:28,705 536    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.User matches criteria [is assignable to Object]
+2020-08-20 18:00:28,956 787    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-20 18:00:28,957 788    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-20 18:00:28,957 788    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-20 18:00:28,957 788    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-20 18:00:28,960 791    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-20 18:00:28,961 792    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-20 18:00:28,964 795    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.class
+2020-08-20 18:00:28,964 795    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.xml
+2020-08-20 18:00:28,964 795    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: impl
+2020-08-20 18:00:28,965 796    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.class
+2020-08-20 18:00:28,965 796    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.xml
+2020-08-20 18:00:28,965 796    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2020-08-20 18:00:28,966 797    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2020-08-20 18:00:28,966 797    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-20 18:00:28,966 797    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-20 18:00:28,966 797    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-20 18:00:28,967 798    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-08-20 18:00:28,968 799    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-20 18:00:28,968 799    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-20 18:00:28,969 800    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-20 18:00:28,970 801    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-20 18:00:28,970 801    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-20 18:00:28,971 802    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoImpl.class
+2020-08-20 18:00:28,972 803    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-20 18:00:28,972 803    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-20 18:00:28,972 803    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-20 18:00:28,973 804    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ~
+2020-08-20 18:00:28,973 804    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-20 18:00:28,973 804    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-20 18:00:28,974 805    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2020-08-20 18:00:28,975 806    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-20 18:00:28,975 806    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-20 18:00:28,976 807    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-20 18:00:28,976 807    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-20 18:00:28,977 808    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-20 18:00:28,977 808    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature ,()Ljava/util/List<Lchen/study/domain/User;>; findAll1 saveUser (Lchen/study/domain/User;)V 
+2020-08-20 18:00:28,978 809    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-20 18:00:28,978 809    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-20 18:00:28,979 810    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-20 18:00:28,979 810    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.AccountDao matches criteria [is assignable to Object]
+2020-08-20 18:00:28,980 811    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.impl.UserDaoImpl matches criteria [is assignable to Object]
+2020-08-20 18:00:28,981 812    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.RoleDao matches criteria [is assignable to Object]
+2020-08-20 18:00:28,982 813    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.UserDao matches criteria [is assignable to Object]
+2020-08-20 18:00:29,302 1133   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-20 18:00:30,594 2425   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 63390.
+2020-08-20 18:00:30,603 2434   [           main] DEBUG hen.study.dao.UserDao.findAll1  - ==>  Preparing: select u.*,r.id as rid,r.role_Name,r.role_desc from user u left outer join user_role ur on u.id = ur.uid left outer join role r on r.id = ur.rid 
+2020-08-20 18:00:30,692 2523   [           main] DEBUG hen.study.dao.UserDao.findAll1  - ==> Parameters: 
+2020-08-20 18:00:30,842 2673   [           main] DEBUG hen.study.dao.UserDao.findAll1  - <==      Total: 9
+2020-08-20 18:00:30,851 2682   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f79e]
+2020-08-20 18:00:30,851 2682   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 63390 to pool.
+2020-08-22 11:01:07,195 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-22 11:01:07,502 307    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-22 11:01:07,502 307    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-22 11:01:07,503 308    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-22 11:01:07,506 311    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-22 11:01:07,508 313    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-22 11:01:07,509 314    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:01:07,509 314    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:01:07,762 567    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-08-22 11:01:07,763 568    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-08-22 11:01:07,764 569    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-08-22 11:01:07,765 570    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Role.class
+2020-08-22 11:01:07,766 571    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-22 11:01:07,766 571    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:01:07,767 572    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-22 11:01:07,767 572    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-22 11:01:07,769 574    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 F
+2020-08-22 11:01:07,770 575    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-22 11:01:07,771 576    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-22 11:01:07,772 577    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-08-22 11:01:07,773 578    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-22 11:01:07,773 578    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-22 11:01:07,774 579    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2020-08-22 11:01:07,774 579    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-22 11:01:07,774 579    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-22 11:01:07,776 581    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 J
+2020-08-22 11:01:07,776 581    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-22 11:01:07,776 581    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-22 11:01:07,777 582    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 c
+2020-08-22 11:01:07,778 583    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Account matches criteria [is assignable to Object]
+2020-08-22 11:01:07,779 584    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.AccountUser matches criteria [is assignable to Object]
+2020-08-22 11:01:07,780 585    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.QueryVo matches criteria [is assignable to Object]
+2020-08-22 11:01:07,781 586    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Role matches criteria [is assignable to Object]
+2020-08-22 11:01:07,782 587    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.User matches criteria [is assignable to Object]
+2020-08-22 11:01:08,010 815    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:01:08,011 816    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:01:08,011 816    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:01:08,012 817    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:01:08,019 824    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:01:08,020 825    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:01:08,022 827    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.class
+2020-08-22 11:01:08,023 828    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.xml
+2020-08-22 11:01:08,024 829    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: impl
+2020-08-22 11:01:08,024 829    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.class
+2020-08-22 11:01:08,025 830    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.xml
+2020-08-22 11:01:08,030 835    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2020-08-22 11:01:08,030 835    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2020-08-22 11:01:08,032 837    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:01:08,032 837    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-22 11:01:08,032 837    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-22 11:01:08,033 838    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-08-22 11:01:08,033 838    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-22 11:01:08,033 838    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-22 11:01:08,034 839    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:01:08,035 840    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:01:08,036 841    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:01:08,036 841    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoImpl.class
+2020-08-22 11:01:08,037 842    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:01:08,038 843    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-22 11:01:08,038 843    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-22 11:01:08,044 849    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ~
+2020-08-22 11:01:08,046 851    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-22 11:01:08,046 851    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-22 11:01:08,048 853    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2020-08-22 11:01:08,049 854    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-22 11:01:08,049 854    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-22 11:01:08,053 858    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:01:08,054 859    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-22 11:01:08,054 859    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-22 11:01:08,055 860    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature ,()Ljava/util/List<Lchen/study/domain/User;>; findAll1 saveUser (Lchen/study/domain/User;)V 
+2020-08-22 11:01:08,059 864    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-22 11:01:08,059 864    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-22 11:01:08,061 866    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:01:08,062 867    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.AccountDao matches criteria [is assignable to Object]
+2020-08-22 11:01:08,070 875    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.impl.UserDaoImpl matches criteria [is assignable to Object]
+2020-08-22 11:01:08,076 881    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.RoleDao matches criteria [is assignable to Object]
+2020-08-22 11:01:08,083 888    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.UserDao matches criteria [is assignable to Object]
+2020-08-22 11:01:08,443 1248   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-22 11:01:09,710 2515   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 63390.
+2020-08-22 11:01:09,717 2522   [           main] DEBUG n.study.dao.AccountDao.findAll  - ==>  Preparing: select u.*,a.id,a.uid,a.money from account a, user u where u.id=a.uid; 
+2020-08-22 11:01:09,865 2670   [           main] DEBUG n.study.dao.AccountDao.findAll  - ==> Parameters: 
+2020-08-22 11:01:09,999 2804   [           main] DEBUG chen.study.dao.UserDao.findOne  - ====>  Preparing: select * from user where id=?; 
+2020-08-22 11:01:10,001 2806   [           main] DEBUG chen.study.dao.UserDao.findOne  - ====> Parameters: 41(Integer)
+2020-08-22 11:01:10,006 2811   [           main] DEBUG chen.study.dao.UserDao.findOne  - <====      Total: 1
+2020-08-22 11:01:10,014 2819   [           main] DEBUG chen.study.dao.UserDao.findOne  - ====>  Preparing: select * from user where id=?; 
+2020-08-22 11:01:10,014 2819   [           main] DEBUG chen.study.dao.UserDao.findOne  - ====> Parameters: 43(Integer)
+2020-08-22 11:01:10,017 2822   [           main] DEBUG chen.study.dao.UserDao.findOne  - <====      Total: 1
+2020-08-22 11:01:10,018 2823   [           main] DEBUG n.study.dao.AccountDao.findAll  - <==      Total: 3
+2020-08-22 11:01:10,019 2824   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f79e]
+2020-08-22 11:01:10,020 2825   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 63390 to pool.
+2020-08-22 11:11:15,797 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-22 11:11:16,154 357    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-22 11:11:16,155 358    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-22 11:11:16,156 359    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-22 11:11:16,159 362    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-22 11:11:16,161 364    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-22 11:11:16,161 364    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:11:16,162 365    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:11:16,318 521    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-08-22 11:11:16,322 525    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-08-22 11:11:16,333 536    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-08-22 11:11:16,333 536    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Role.class
+2020-08-22 11:11:16,334 537    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-22 11:11:16,335 538    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:11:16,338 541    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-22 11:11:16,340 543    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-22 11:11:16,342 545    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 F
+2020-08-22 11:11:16,343 546    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-22 11:11:16,344 547    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-22 11:11:16,346 549    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-08-22 11:11:16,347 550    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-22 11:11:16,347 550    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-22 11:11:16,348 551    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2020-08-22 11:11:16,349 552    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-22 11:11:16,349 552    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-22 11:11:16,351 554    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 J
+2020-08-22 11:11:16,351 554    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-22 11:11:16,354 557    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-22 11:11:16,356 559    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 c
+2020-08-22 11:11:16,358 561    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Account matches criteria [is assignable to Object]
+2020-08-22 11:11:16,360 563    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.AccountUser matches criteria [is assignable to Object]
+2020-08-22 11:11:16,362 565    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.QueryVo matches criteria [is assignable to Object]
+2020-08-22 11:11:16,363 566    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Role matches criteria [is assignable to Object]
+2020-08-22 11:11:16,366 569    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.User matches criteria [is assignable to Object]
+2020-08-22 11:11:16,565 768    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:11:16,569 772    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:11:16,570 773    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:11:16,570 773    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:11:16,575 778    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:11:16,576 779    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:11:16,578 781    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.class
+2020-08-22 11:11:16,578 781    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.xml
+2020-08-22 11:11:16,579 782    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: impl
+2020-08-22 11:11:16,581 784    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.class
+2020-08-22 11:11:16,582 785    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.xml
+2020-08-22 11:11:16,583 786    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2020-08-22 11:11:16,583 786    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2020-08-22 11:11:16,584 787    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:11:16,584 787    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-22 11:11:16,593 796    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-22 11:11:16,596 799    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-08-22 11:11:16,597 800    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-22 11:11:16,597 800    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-22 11:11:16,598 801    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:11:16,599 802    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:11:16,599 802    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:11:16,600 803    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoImpl.class
+2020-08-22 11:11:16,601 804    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:11:16,601 804    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-22 11:11:16,601 804    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-22 11:11:16,610 813    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ~
+2020-08-22 11:11:16,611 814    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-22 11:11:16,611 814    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-22 11:11:16,612 815    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2020-08-22 11:11:16,613 816    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-22 11:11:16,613 816    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-22 11:11:16,615 818    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:11:16,615 818    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-22 11:11:16,616 819    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-22 11:11:16,616 819    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature ,()Ljava/util/List<Lchen/study/domain/User;>; findAll1 saveUser (Lchen/study/domain/User;)V 
+2020-08-22 11:11:16,617 820    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-22 11:11:16,617 820    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-22 11:11:16,619 822    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:11:16,620 823    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.AccountDao matches criteria [is assignable to Object]
+2020-08-22 11:11:16,621 824    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.impl.UserDaoImpl matches criteria [is assignable to Object]
+2020-08-22 11:11:16,622 825    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.RoleDao matches criteria [is assignable to Object]
+2020-08-22 11:11:16,623 826    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.UserDao matches criteria [is assignable to Object]
+2020-08-22 11:11:16,991 1194   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-22 11:11:18,272 2475   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1444635922.
+2020-08-22 11:11:18,276 2479   [           main] DEBUG n.study.dao.AccountDao.findAll  - ==>  Preparing: select u.*,a.id,a.uid,a.money from account a, user u where u.id=a.uid; 
+2020-08-22 11:11:18,386 2589   [           main] DEBUG n.study.dao.AccountDao.findAll  - ==> Parameters: 
+2020-08-22 11:11:18,530 2733   [           main] DEBUG n.study.dao.AccountDao.findAll  - <==      Total: 3
+2020-08-22 11:11:18,536 2739   [           main] DEBUG chen.study.dao.UserDao.findOne  - ==>  Preparing: select * from user where id=?; 
+2020-08-22 11:11:18,537 2740   [           main] DEBUG chen.study.dao.UserDao.findOne  - ==> Parameters: 41(Integer)
+2020-08-22 11:11:18,543 2746   [           main] DEBUG chen.study.dao.UserDao.findOne  - <==      Total: 1
+2020-08-22 11:11:18,544 2747   [           main] DEBUG chen.study.dao.UserDao.findOne  - ==>  Preparing: select * from user where id=?; 
+2020-08-22 11:11:18,544 2747   [           main] DEBUG chen.study.dao.UserDao.findOne  - ==> Parameters: 43(Integer)
+2020-08-22 11:11:18,547 2750   [           main] DEBUG chen.study.dao.UserDao.findOne  - <==      Total: 1
+2020-08-22 11:11:18,548 2751   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@561b6512]
+2020-08-22 11:11:18,549 2752   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1444635922 to pool.
+2020-08-22 11:16:45,830 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-22 11:16:46,198 368    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-22 11:16:46,198 368    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-22 11:16:46,199 369    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-22 11:16:46,201 371    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-22 11:16:46,203 373    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-22 11:16:46,204 374    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:16:46,204 374    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:16:46,339 509    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-08-22 11:16:46,339 509    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-08-22 11:16:46,340 510    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-08-22 11:16:46,340 510    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Role.class
+2020-08-22 11:16:46,342 512    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-22 11:16:46,342 512    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:16:46,343 513    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-22 11:16:46,343 513    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-22 11:16:46,345 515    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 F
+2020-08-22 11:16:46,346 516    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-22 11:16:46,346 516    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-22 11:16:46,347 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-08-22 11:16:46,348 518    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-22 11:16:46,348 518    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-22 11:16:46,349 519    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2020-08-22 11:16:46,350 520    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-22 11:16:46,350 520    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-22 11:16:46,352 522    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 J
+2020-08-22 11:16:46,352 522    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-22 11:16:46,352 522    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-22 11:16:46,354 524    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 c
+2020-08-22 11:16:46,355 525    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Account matches criteria [is assignable to Object]
+2020-08-22 11:16:46,356 526    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.AccountUser matches criteria [is assignable to Object]
+2020-08-22 11:16:46,358 528    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.QueryVo matches criteria [is assignable to Object]
+2020-08-22 11:16:46,359 529    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Role matches criteria [is assignable to Object]
+2020-08-22 11:16:46,360 530    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.User matches criteria [is assignable to Object]
+2020-08-22 11:16:46,562 732    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:16:46,563 733    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:16:46,563 733    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:16:46,564 734    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:16:46,568 738    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:16:46,570 740    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:16:46,573 743    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.class
+2020-08-22 11:16:46,574 744    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.xml
+2020-08-22 11:16:46,574 744    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: impl
+2020-08-22 11:16:46,575 745    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.class
+2020-08-22 11:16:46,575 745    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.xml
+2020-08-22 11:16:46,575 745    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2020-08-22 11:16:46,575 745    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2020-08-22 11:16:46,576 746    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:16:46,576 746    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-22 11:16:46,576 746    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-22 11:16:46,577 747    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-08-22 11:16:46,577 747    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-22 11:16:46,577 747    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-22 11:16:46,578 748    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:16:46,579 749    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:16:46,579 749    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:16:46,580 750    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoImpl.class
+2020-08-22 11:16:46,581 751    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:16:46,581 751    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-22 11:16:46,581 751    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-22 11:16:46,583 753    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ~
+2020-08-22 11:16:46,583 753    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-22 11:16:46,584 754    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-22 11:16:46,585 755    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2020-08-22 11:16:46,585 755    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-22 11:16:46,586 756    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-22 11:16:46,587 757    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:16:46,587 757    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-22 11:16:46,587 757    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-22 11:16:46,589 759    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature ,()Ljava/util/List<Lchen/study/domain/User;>; findAll1 saveUser (Lchen/study/domain/User;)V 
+2020-08-22 11:16:46,589 759    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-22 11:16:46,589 759    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-22 11:16:46,590 760    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:16:46,591 761    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.AccountDao matches criteria [is assignable to Object]
+2020-08-22 11:16:46,591 761    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.impl.UserDaoImpl matches criteria [is assignable to Object]
+2020-08-22 11:16:46,593 763    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.RoleDao matches criteria [is assignable to Object]
+2020-08-22 11:16:46,594 764    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.UserDao matches criteria [is assignable to Object]
+2020-08-22 11:16:46,937 1107   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-22 11:16:47,887 2057   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1444635922.
+2020-08-22 11:16:47,891 2061   [           main] DEBUG n.study.dao.AccountDao.findAll  - ==>  Preparing: /*select u.*,a.id,a.uid,a.money from account a, user u where u.id=a.uid;*/ select * from account; 
+2020-08-22 11:16:47,958 2128   [           main] DEBUG n.study.dao.AccountDao.findAll  - ==> Parameters: 
+2020-08-22 11:16:48,072 2242   [           main] DEBUG n.study.dao.AccountDao.findAll  - <==      Total: 3
+2020-08-22 11:16:48,075 2245   [           main] DEBUG chen.study.dao.UserDao.findOne  - ==>  Preparing: select * from user where id=?; 
+2020-08-22 11:16:48,076 2246   [           main] DEBUG chen.study.dao.UserDao.findOne  - ==> Parameters: 41(Integer)
+2020-08-22 11:16:48,080 2250   [           main] DEBUG chen.study.dao.UserDao.findOne  - <==      Total: 1
+2020-08-22 11:16:48,081 2251   [           main] DEBUG chen.study.dao.UserDao.findOne  - ==>  Preparing: select * from user where id=?; 
+2020-08-22 11:16:48,081 2251   [           main] DEBUG chen.study.dao.UserDao.findOne  - ==> Parameters: 43(Integer)
+2020-08-22 11:16:48,083 2253   [           main] DEBUG chen.study.dao.UserDao.findOne  - <==      Total: 1
+2020-08-22 11:16:48,084 2254   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@561b6512]
+2020-08-22 11:16:48,084 2254   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1444635922 to pool.
+2020-08-22 11:28:27,144 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-22 11:28:27,412 268    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-22 11:28:27,416 272    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-22 11:28:27,417 273    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-22 11:28:27,425 281    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-22 11:28:27,429 285    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-22 11:28:27,430 286    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:28:27,431 287    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:28:27,536 392    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Account.class
+2020-08-22 11:28:27,536 392    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountUser.class
+2020-08-22 11:28:27,537 393    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-08-22 11:28:27,537 393    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Role.class
+2020-08-22 11:28:27,538 394    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-22 11:28:27,538 394    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain
+2020-08-22 11:28:27,538 394    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-22 11:28:27,539 395    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Account.class
+2020-08-22 11:28:27,540 396    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 F
+2020-08-22 11:28:27,540 396    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-22 11:28:27,541 397    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/AccountUser.class
+2020-08-22 11:28:27,541 397    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 /
+2020-08-22 11:28:27,542 398    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-22 11:28:27,542 398    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/QueryVo.class
+2020-08-22 11:28:27,544 400    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 %
+2020-08-22 11:28:27,544 400    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-22 11:28:27,544 400    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/Role.class
+2020-08-22 11:28:27,551 407    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 J
+2020-08-22 11:28:27,552 408    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-22 11:28:27,552 408    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/domain/User.class
+2020-08-22 11:28:27,559 415    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 c
+2020-08-22 11:28:27,560 416    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Account matches criteria [is assignable to Object]
+2020-08-22 11:28:27,561 417    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.AccountUser matches criteria [is assignable to Object]
+2020-08-22 11:28:27,562 418    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.QueryVo matches criteria [is assignable to Object]
+2020-08-22 11:28:27,562 418    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.Role matches criteria [is assignable to Object]
+2020-08-22 11:28:27,563 419    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.domain.User matches criteria [is assignable to Object]
+2020-08-22 11:28:27,820 676    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:28:27,820 676    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:28:27,820 676    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:28:27,821 677    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-22 11:28:27,827 683    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:28:27,827 683    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:28:27,829 685    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.class
+2020-08-22 11:28:27,830 686    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: AccountDao.xml
+2020-08-22 11:28:27,838 694    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: impl
+2020-08-22 11:28:27,839 695    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.class
+2020-08-22 11:28:27,839 695    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: RoleDao.xml
+2020-08-22 11:28:27,840 696    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2020-08-22 11:28:27,840 696    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2020-08-22 11:28:27,840 696    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao
+2020-08-22 11:28:27,840 696    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-22 11:28:27,843 699    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.class
+2020-08-22 11:28:27,846 702    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature /()Ljava/util/List<Lchen/study/domain/Account;>; findAllAccount 3()Ljava/util/List<Lchen/study/domain/AccountUser;>; findAccountByUid %(Ljava/lang/Integer;)Ljava/util/List; B(Ljava/lang/Integer;)Ljava/util/List<Lchen/study/domain/Account;>; 
+2020-08-22 11:28:27,847 703    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-22 11:28:27,847 703    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/AccountDao.xml
+2020-08-22 11:28:27,847 703    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:28:27,848 704    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:28:27,848 704    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:28:27,849 705    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoImpl.class
+2020-08-22 11:28:27,850 706    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl
+2020-08-22 11:28:27,850 706    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-22 11:28:27,850 706    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/impl/UserDaoImpl.class
+2020-08-22 11:28:27,851 707    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ~
+2020-08-22 11:28:27,852 708    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-22 11:28:27,852 708    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.class
+2020-08-22 11:28:27,853 709    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2020-08-22 11:28:27,854 710    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-22 11:28:27,854 710    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/RoleDao.xml
+2020-08-22 11:28:27,855 711    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:28:27,856 712    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-22 11:28:27,856 712    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.class
+2020-08-22 11:28:27,857 713    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature ,()Ljava/util/List<Lchen/study/domain/User;>; findAll1 saveUser (Lchen/study/domain/User;)V 
+2020-08-22 11:28:27,857 713    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-22 11:28:27,858 714    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/chen/Desktop/MyBatis/target/classes/chen/study/dao/UserDao.xml
+2020-08-22 11:28:27,858 714    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-08-22 11:28:27,859 715    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.AccountDao matches criteria [is assignable to Object]
+2020-08-22 11:28:27,861 717    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.impl.UserDaoImpl matches criteria [is assignable to Object]
+2020-08-22 11:28:27,862 718    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.RoleDao matches criteria [is assignable to Object]
+2020-08-22 11:28:27,862 718    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class chen.study.dao.UserDao matches criteria [is assignable to Object]
+2020-08-22 11:28:28,346 1202   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-22 11:28:29,464 2320   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1444635922.
+2020-08-22 11:28:29,476 2332   [           main] DEBUG chen.study.dao.UserDao.findAll  - ==>  Preparing: /*select * from user u left outer join account a on u.id=a.uid;*/ select * from user ; 
+2020-08-22 11:28:29,643 2499   [           main] DEBUG chen.study.dao.UserDao.findAll  - ==> Parameters: 
+2020-08-22 11:28:29,835 2691   [           main] DEBUG chen.study.dao.UserDao.findAll  - <==      Total: 8
+2020-08-22 11:28:29,845 2701   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==>  Preparing: select * from account where uid=?; 
+2020-08-22 11:28:29,846 2702   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==> Parameters: 41(Integer)
+2020-08-22 11:28:29,864 2720   [           main] DEBUG ao.AccountDao.findAccountByUid  - <==      Total: 2
+2020-08-22 11:28:29,866 2722   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==>  Preparing: select * from account where uid=?; 
+2020-08-22 11:28:29,866 2722   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==> Parameters: 42(Integer)
+2020-08-22 11:28:29,869 2725   [           main] DEBUG ao.AccountDao.findAccountByUid  - <==      Total: 0
+2020-08-22 11:28:29,869 2725   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==>  Preparing: select * from account where uid=?; 
+2020-08-22 11:28:29,870 2726   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==> Parameters: 43(Integer)
+2020-08-22 11:28:29,874 2730   [           main] DEBUG ao.AccountDao.findAccountByUid  - <==      Total: 1
+2020-08-22 11:28:29,875 2731   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==>  Preparing: select * from account where uid=?; 
+2020-08-22 11:28:29,875 2731   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==> Parameters: 45(Integer)
+2020-08-22 11:28:29,878 2734   [           main] DEBUG ao.AccountDao.findAccountByUid  - <==      Total: 0
+2020-08-22 11:28:29,883 2739   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==>  Preparing: select * from account where uid=?; 
+2020-08-22 11:28:29,884 2740   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==> Parameters: 48(Integer)
+2020-08-22 11:28:29,886 2742   [           main] DEBUG ao.AccountDao.findAccountByUid  - <==      Total: 0
+2020-08-22 11:28:29,887 2743   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==>  Preparing: select * from account where uid=?; 
+2020-08-22 11:28:29,887 2743   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==> Parameters: 52(Integer)
+2020-08-22 11:28:29,891 2747   [           main] DEBUG ao.AccountDao.findAccountByUid  - <==      Total: 0
+2020-08-22 11:28:29,892 2748   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==>  Preparing: select * from account where uid=?; 
+2020-08-22 11:28:29,893 2749   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==> Parameters: 53(Integer)
+2020-08-22 11:28:29,895 2751   [           main] DEBUG ao.AccountDao.findAccountByUid  - <==      Total: 0
+2020-08-22 11:28:29,896 2752   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==>  Preparing: select * from account where uid=?; 
+2020-08-22 11:28:29,897 2753   [           main] DEBUG ao.AccountDao.findAccountByUid  - ==> Parameters: 54(Integer)
+2020-08-22 11:28:29,901 2757   [           main] DEBUG ao.AccountDao.findAccountByUid  - <==      Total: 0
+2020-08-22 11:28:29,905 2761   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@561b6512]
+2020-08-22 11:28:29,905 2761   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1444635922 to pool.

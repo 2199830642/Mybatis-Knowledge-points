@@ -3,6 +3,9 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="chen.study.dao.UserDao">
+    <!--开启user支持二级缓存-->
+    <cache/>
+
     <!--配置，查询结果的列名和实体类的属性名的对应关系-->
     <resultMap id="userAccountMap" type="user">
         <!--主键字段的对应-->
@@ -13,10 +16,10 @@
         <result property="sex" column="sex"></result>
         <result property="birthday" column="birthday"></result>
         <!--配置user对象中account集合的映射,一对多-->
-        <collection property="accounts" ofType="account">
-            <id property="id" column="id"/>
+        <collection property="accounts" ofType="account" select="chen.study.dao.AccountDao.findAccountByUid" column="id">
+            <!--<id property="id" column="id"/>
             <result property="uid" column="uid"/>
-            <result property="money" column="money"/>
+            <result property="money" column="money"/>-->
         </collection>
     </resultMap>
 
@@ -46,7 +49,8 @@
         重复的sql语句引用语法
         <include refid="defaultUser"></include>
         -->
-        select * from user u left outer join account a on u.id=a.uid;
+        /*select * from user u left outer join account a on u.id=a.uid;*/
+        select * from user ;
     </select>
 
     <!--配置查询所有用户及其对应的角色  多对多-->
@@ -73,7 +77,7 @@
         delete from user where id = #{uid};
     </delete>
     <!--查询一个用户-->
-    <select id="findOne" parameterType="Integer" resultType="user">
+    <select id="findOne" parameterType="Integer" resultType="user" useCache="true">
         select * from user where id=#{uid};
     </select>
     <!--根据姓名模糊查询-->

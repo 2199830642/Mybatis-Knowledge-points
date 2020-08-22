@@ -2,6 +2,7 @@
 <!DOCTYPE configuration
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
 <!--mybatis的主配置文件-->
 <configuration>
     <!--配置properties
@@ -16,6 +17,14 @@
     -->
     <properties resource="jdbcConfig.properties"/>
    <!-- <properties url="file:///Users/chen/Desktop/MyBatis/src/main/resources/jdbcConfig.properties"/>-->
+
+    <!--配置参数-->
+    <settings>
+        <!--开启mybatis全局延迟加载的开关-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
 
     <!--使用typeAliases配置别名，它只能配置domain中的类的别名-->
     <typeAliases>
